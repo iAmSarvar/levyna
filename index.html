@@ -13,18 +13,18 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home">
       <nav class="navbar">
         <div class="logo-container">
           <img src="./images/logo.svg" alt="Logo" />
           <a href="/">Levyna</a>
         </div>
         <ul class="pages">
-          <li><a class="active" href="/">Home</a></li>
-          <li><a href="/services.html">Service</a></li>
-          <li><a href="/">Blog</a></li>
-          <li><a href="/">About Us</a></li>
-          <li><a href="/">Testimonial</a></li>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#statistics">Blog</a></li>
+          <li><a href="#consultation">About Us</a></li>
+          <li><a href="#blogs">Testimonial</a></li>
         </ul>
         <button>Consultation</button>
       </nav>
@@ -41,7 +41,7 @@
       </div>
     </header>
     <!-- Services page -->
-    <section class="services">
+    <section class="services" id="services">
       <div class="services-title__container">
         <p class="title">
           The best service we <br />
@@ -106,7 +106,7 @@
       </div>
     </section>
     <!-- Statistics -->
-    <section class="statistics">
+    <section class="statistics" id="statistics">
       <div class="statistics-container">
         <p class="statistics-title">How much have we accomplished ?</p>
         <div class="stats">
@@ -131,7 +131,7 @@
     </section>
     <!-- Consultation -->
 
-    <section class="consultation">
+    <section class="consultation" id="consultation">
       <div class="consultation-container">
         <div class="img-container">
           <img src="./images/building.svg" alt="building" />
@@ -150,7 +150,7 @@
     </section>
 
     <!-- Blogs -->
-    <section class="blogs">
+    <section class="blogs" id="blogs">
       <div class="blogs-container">
         <h2 class="blogs-title">Levyna Blogs</h2>
         <p class="blogs-subtitle">
@@ -209,6 +209,56 @@
         </div>
       </div>
     </section>
-    <!--  -->
+    <!-- Comments -->
+    <section class="comments">
+      <div class="comments-container">
+        <img src="./images/user_img.svg" alt="User image" />
+        <div class="conmments-content">
+          <p class="title">This is what they say about us</p>
+          <p class="text">
+            I really like the result, somehow it's exactly what I expected
+          </p>
+          <p class="user-name">Kim Jhone</p>
+          <p class="occupation">CEO of joyhome</p>
+          <div class="btn-container">
+            <button>
+              <img src="./images/left_arrow.svg" alt="Left arrow" />
+            </button>
+            <button>
+              <img src="./images/right_arrow.svg" alt="Right arrow" />
+            </button>
+          </div>
+          <div class="comment">
+            <div class="badge">
+              <img src="./images/sign.svg" alt="" />
+            </div>
+            <p>We have made many people satisfied with our work</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact">
+      <h2 class="title">Subscribe to get notified about update</h2>
+      <p>By subscribing with your mail, you will accept our privacy policy</p>
+      <form>
+        <input type="email" placeholder="Enter your email" />
+        <button>Subscribe us</button>
+      </form>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="logo-container">
+        <img src="./images/logo.svg" alt="Logo" />
+        <a href="/">Levyna</a>
+      </div>
+      <ul class="pages">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="#statistics">Blog</a></li>
+        <li><a href="#consultation">About Us</a></li>
+        <li><a href="#blogs">Testimonial</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
